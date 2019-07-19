@@ -20,7 +20,11 @@ export PS1="\[$(tput bold)\]\[$(tput setaf 1)\][\[$(tput setaf 3)\]\u\[$(tput se
 # #--- Enabling VIM Bindings for Shell --# #
 set -o vi
 
+# #-- Clear screen with Ctrl+l --# #
 bind -m vi-insert "\C-l":clear-screen
+
+# #-- Some Aliases --# #
+alias la="ls -a"
 
 # #-- Custom Scripts Path --# #
 export PATH=$PATH:/home/elliot/.config/.scripts
