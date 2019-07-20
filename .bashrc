@@ -26,5 +26,16 @@ bind -m vi-insert "\C-l":clear-screen
 # #-- Some Aliases --# #
 alias la="ls -a"
 
+# #-- Changin directories --# #
+alias dm="cd ~/Documents"
+alias dw="cd ~/Downloads"
+alias sc="cd ~/.config/.scripts"
+alias rp="cd ~/Documents/repos"
+
+# #-- Config files aliases --# #
+alias ci3="vim ~/.config/i3/config"
+alias cvi="vim ~/.vimrc"
+alias cbs="vim ~/.bashrc"
+
 # #-- Custom Scripts Path --# #
 export PATH=$PATH:/home/elliot/.config/.scripts
