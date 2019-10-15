@@ -31,11 +31,37 @@ alias dm="cd ~/Documents"
 alias dw="cd ~/Downloads"
 alias sc="cd ~/.config/.scripts"
 alias rp="cd ~/Documents/repos"
+alias lx="cd ~/Documents/latex"
 
 # #-- Config files aliases --# #
 alias ci3="vim ~/.config/i3/config"
 alias cvi="vim ~/.vimrc"
 alias cbs="vim ~/.bashrc"
 
+alias yta="youtube-dl --add-metadata -x --audio-format "mp3""
+alias yt="youtube-dl -f "best[height=720]" "
+alias yt4="youtube-dl -f mp4 "
+
+
+
+
 # #-- Custom Scripts Path --# #
 export PATH=$PATH:/home/elliot/.config/.scripts
+export PATH="${PATH}:${HOME}/.local/bin/"
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+#__conda_setup="$('/home/elliot/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/elliot/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/elliot/anaconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/elliot/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+# <<< conda initialize <<<
+
+export PATH=$PATH:/home/elliot/anaconda3/bin
